@@ -1,0 +1,42 @@
+<div class="container w-50 mt-5 p-3">
+    <h3 class="text-center">add new product</h3>
+    <form [formGroup]="addproductform" (ngSubmit)="addproduct()"  action="" >
+        <div class="p-2">
+            <input formControlName="id"  class="form-control" type="text" placeholder="id" id="pid" name="pid">
+        </div>
+        <div class="p-2">
+            <input formControlName="productName"  class="form-control" type="text" placeholder="product name" id="pnid" name="pnid">
+        </div>
+        <div class="p-2">
+            <input formControlName="categoryId"  class="form-control" type="text" placeholder="categoryId" id="catid" name="catidid">
+        </div>
+        <div class="p-2">
+            <input formControlName="description"  class="form-control" type="text" placeholder="description" id="desid" name="desid">
+        </div>
+        <div class="p-2">
+            <input formControlName="price"  class="form-control" type="text" placeholder="price" id="prid" name="prid">
+        </div>
+        <div class="p-2">
+            <input formControlName="is_available"  class="form-control" type="text" placeholder="is_available  yes/no" id="avid" name="avid">
+        </div>
+        <div class="p-2">
+            <input formControlName="productImg"  class="form-control" type="text" placeholder="productImg url" id="imgid" name="imgid">
+        </div>
+        <div class="p-2">
+            <input formControlName="rating"  class="form-control" type="text" placeholder="rating" id="ratingid" name="ratingid">
+        </div>
+        <div class="p-2">
+            <input formControlName="review"  class="form-control" type="text" placeholder="review" id="rreviewid" name="reviewid">
+        </div>
+        <div class="p-2">
+            <input formControlName="vendor_name"  class="form-control" type="text" placeholder="vendor_name" id="vendor_nameid" name="vendor_nameid">
+        </div>
+        <div class="p-2">
+            <input formControlName="warranty"  class="form-control" type="text" placeholder="warranty" id="warrantyid" name="warrantyid">
+        </div>
+
+        <div class="p-2 text-center">
+            <button type="submit"  class="btn btn-outline-dark">add product</button>
+        </div>
+  </form>
+</div>

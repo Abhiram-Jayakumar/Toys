@@ -1,0 +1,29 @@
+<!-- Product section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{productdata.productImg}}" /></div>
+            <div class="col-md-6">
+                <h1 class="display-5 fw-bolder">{{productdata.productName}}</h1>
+                <div class="small mb-1">Product Id: {{productdata.id}}</div>
+
+                <div class="fs-5 mb-5">
+                    <span class="text-decoration-h">RS {{productdata.price}} </span> <br>
+                    <span class="text-decoration-h">Rating:{{productdata.rating}}</span><br>
+                    <h6><strong>Description: </strong>{{productdata.description}}</h6>
+                    <h6><strong>Product Status: </strong>{{productdata.is_available}}</h6>
+                    <h6><strong>Rating: </strong>{{productdata.rating}}</h6>
+                    <h6><strong>Buyrs: </strong>{{productdata.review}}</h6>
+                    <h6><strong>Warranty: </strong>{{productdata.warranty}}</h6>
+                    <h6><strong>Shipping-By: </strong>{{productdata.vendor_name}}</h6>
+                    <div class="d-flex">
+                        <div>
+                            <a href="Toys/edit/{{productdata.id}}">Edit Product</a> | <a href="Toys/delete/{{productdata.id}}">Delate product</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

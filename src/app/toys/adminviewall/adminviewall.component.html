@@ -1,0 +1,44 @@
+<!-- shop section -->
+
+<section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          New Arrivals
+        </h2>
+      </div>
+      <div class="row">
+        <div *ngFor="let product of products" class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="/Toys/shop">
+              <div class="img-box">
+                <img src="{{product.productImg}}" alt="">
+              </div>
+              <div class="detail-box">
+                <a href="/Toys/shop">
+                  {{product.productName}}
+                </a>
+                <h6>
+                  Price
+                  ${{product.price}}
+                </h6>
+                <hr>
+                <h6><strong>Description:</strong>{{product.description}}</h6>
+                <hr>
+                <h6><strong>Product Status:</strong>{{product.is_available}}</h6>
+                <h6><strong>Rating:</strong>{{product.rating}}</h6>
+                <h6><strong>Buyrs:</strong>{{product.review}}</h6>
+                <h6><strong>Warranty:</strong>{{product.warranty}}</h6>
+                <h6><strong>Shipping-By:</strong>{{product.vendor_name}}</h6>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="Toys/adminviewpro/{{product.id}}">View options</a></div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- end shop section -->
