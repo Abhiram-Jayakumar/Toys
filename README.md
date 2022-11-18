@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
+ITS AN E-COMMERCE WEBSITE FOR TOYS
+///////////////////////////////////////////////////////////////////////
+/-  **THE USER CAN VIEW-ALL TOYS AND  VIEW PRODUCT
+
+/- THE ADMIN CAN ADD PRODUCT DELETE PRODUCT EDIT PRODUCT
+
+/-THE SYSTEM WAS USE BACKEND AS API
+
+/-IN THIS SYSTEM BOOTSTRAP and  CSS  USED AS FRONT-END TECHNOLODGY**
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
